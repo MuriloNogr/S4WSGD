@@ -1,0 +1,28 @@
+canvas{
+    background-image:url(../image/background.PNG);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+body{
+    background-color: black;
+}
+
+#content{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.lifes{
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);  
+}
+
+.lifes>div{
+    margin: 10px auto;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
